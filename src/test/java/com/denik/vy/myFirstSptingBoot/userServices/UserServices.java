@@ -21,11 +21,11 @@ public class UserServices {
         Assert.notNull(userNotNull, "user нулевой");
         Assert.isNull(userNull, "user не нулевой");
     }
-    @Test
-    void findByName() {
-        User user = repository.findByName("Bob");
-
-        Assert.notNull(user, "нулевой");
-        Assert.hasText(user.getName(), "Bob");
-    }
+//    @Test
+//    void findByName() {
+//        User user = repository.findByName("Bob");
+//
+//        Assert.notNull(user, "нулевой");
+//        Assert.hasText(user.getName(), "Bob");
+//    }
 }
